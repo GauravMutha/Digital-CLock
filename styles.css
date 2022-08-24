@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.clockNumbers{
+    font-family: 'Orbitron', sans-serif;
+    color: #17D4FE;
+    letter-spacing: 6px;
+    font-size: 4rem;
+    width: 135px;
+    max-width: 135px;
+    text-align: center;
+}
+
+.ampm{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    color: #17D4FE;
+    letter-spacing: 3px;
+    font-size: 1rem;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.digital{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+}
+
+.format{
+    padding: 9px;
+    border: none;
+    border-radius: 10px;
+    background-color:#17D4FE;
+    color:black;
+    font-weight: bolder;
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin-top: 20px;
+}
+
+
+.format:hover{
+    cursor: pointer;
+    box-shadow: 0 0 8px 4px blue;
+    
+}
+
+.format:active{
+    transform: scale(0.98);
+    opacity: 0.7;
+}
+
+.dialer{
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.wrapper{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
